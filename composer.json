@@ -1,0 +1,16 @@
+{
+    "name": "reach-digital/magento2-auto-invoice",
+    "description": "",
+    "require": {
+        "php": "~7.4.0||~8.1.0"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ReachDigital\\AutoInvoice\\": ""
+        }
+    }
+}
